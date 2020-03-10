@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/me/static/js/main.4f142bfd.chunk.js",
+    "main.js.map": "/me/static/js/main.4f142bfd.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.38d0503b.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.38d0503b.js.map",
+    "static/js/2.6e5334e0.chunk.js": "/me/static/js/2.6e5334e0.chunk.js",
+    "static/js/2.6e5334e0.chunk.js.map": "/me/static/js/2.6e5334e0.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.80b17aca70db669bd99606f61a583839.js": "/me/precache-manifest.80b17aca70db669bd99606f61a583839.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/js/2.6e5334e0.chunk.js.LICENSE.txt": "/me/static/js/2.6e5334e0.chunk.js.LICENSE.txt",
+    "static/media/React.png": "/me/static/media/React.47ce6e77.png",
+    "static/media/jquery.png": "/me/static/media/jquery.bfabb0d6.png",
+    "static/media/laravel.svg": "/me/static/media/laravel.d5228773.svg",
+    "static/media/me.jpg": "/me/static/media/me.7930d470.jpg",
+    "static/media/mysql.webp": "/me/static/media/mysql.46318f07.webp",
+    "static/media/php.png": "/me/static/media/php.1b29a538.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38d0503b.js",
+    "static/js/2.6e5334e0.chunk.js",
+    "static/js/main.4f142bfd.chunk.js"
+  ]
+}
