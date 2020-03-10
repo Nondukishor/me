@@ -1,16 +1,8 @@
 import React from 'react';
-import {
-  Container,
-  makeStyles,
-  Toolbar,
-  AppBar,
-  CssBaseline,
-  Avatar,
-  Typography,
-} from '@material-ui/core';
-
+import {Container,Toolbar,AppBar,CssBaseline,Avatar,Typography,} from '@material-ui/core';
+import { useStyles } from './hooks/useStyle';
 import AvatarGroup from '@material-ui/lab/AvatarGroup';
-
+import Copyright  from './components/CopyRight';
 import me from './me.jpg';
 import js from './js.png';
 import NodeJS from './node.png';
@@ -20,56 +12,7 @@ import react from './React.png';
 import jq from './jquery.png';
 import laravel from './laravel.svg'
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
 
-const useStyles = makeStyles(theme => ({
-  icon: {
-    marginRight: theme.spacing(2),
-  },
-  heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
-  },
-  heroButtons: {
-    marginTop: theme.spacing(4),
-  },
-  cardGrid: {
-    paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8),
-  },
-  card: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  cardMedia: {
-    paddingTop: '56.25%', // 16:9
-  },
-  cardContent: {
-    flexGrow: 1,
-  },
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
-  },
-  avatar: {
-    margin: theme.spacing(1),
-  },
-  paper: {
-    marginTop: theme.spacing(8),
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-}));
 
 export default function App() {
   const classes = useStyles();
